@@ -1,0 +1,35 @@
+.main-div {
+	margin: 0px 150px;
+
+}
+.nav {
+	display: flex;
+	justify-content: center;
+}
+.nav-ul {
+	display: flex;
+	list-style-type: none;
+}
+.nav-li, a {
+	text-decoration: none;
+	color: black;
+	margin: 10px 10px 10px;
+	font-size: 20px;
+	color: #28130d;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+h1 {
+	font-size: 40px;
+}
+ul {
+	list-style-type: upper-greek;
+}
+li {
+	font-size: 20px;
+	margin: 10px 0px;
+}

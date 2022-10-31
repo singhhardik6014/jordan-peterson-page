@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="styles2.css">
+	<title>Form - JP</title>
+</head>
+<body>
+	<div class="main-div">
+		<!-- Navigational bar where there exist 4 links of other pages -->
+		<div class="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="form.html">Form</a></li>
+				<li><a href="readingList.html">Reading List</a></li>
+				<li><a href="images.html">Images</a></li>
+			</ul>
+		</div>
+		<!-- Form content -->
+		<div class="form-content">
+			<form action="form-handling-url" method="post">
+				<fieldset>
+					<!-- Legend -->
+					<legend>How much do you know?</legend>
+
+					<!-- FULL NAME -->
+					<div class="div1">
+						<label for="fullName">What is the full name of JP?</label>
+						<input type="text" name="fullName">
+					</div>
+
+					<!-- PROFESSION -->
+					<div class="div1">
+						<label for="profession">What is the profession of JP?</label>
+						<input type="text" name="profession">
+					</div>
+
+					<!-- EDUCATION -->
+					<div class="div1">
+						<label for="education">What is the education qualification of JP?</label>
+						<input type="text" name="education">
+					</div>
+
+					<!-- BOOK YOU LIKE -->
+					<div class="div1">
+						<label for="bookPrfer">Which book do you prefer of his?</label>
+						<select name="bookPrfer">
+							<option value="mapsOfMeaning">Maps of Meaning</option>
+							<option value="12RulesForLife1">12 Rules for life: Order, & Chaos</option>
+							<option value="12RulesForLife2">12 Rules for life: Beyond Order</option>
+						</select>
+					</div>
+
+					<!-- COMMENTS -->
+					<div class="div1">
+						<label for="comments">Comments: </label>
+						<textarea name="comments"></textarea>
+					</div>
+
+					<div>
+						<button type="submit">Submit</button>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
